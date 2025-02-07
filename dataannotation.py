@@ -7,7 +7,7 @@ def main(url):
         souparray = soup.find_all("tr")
         souparray.pop(0)
         tupdict = dict()
-        max_x_coord = 0;
+        max_x_coord = 0
         max_y_coord = 0
         for i in souparray:
             x_coord = -1
