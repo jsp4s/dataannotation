@@ -35,9 +35,6 @@ def main(url):
                 print(tupdict.get((col,row)), end="")
             else:
                 print(" ", end="")
-        print()
-
-
-            
+        print()    
 
 main("https://docs.google.com/document/d/e/2PACX-1vQGUck9HIFCyezsrBSnmENk5ieJuYwpt7YHYEzeNJkIb9OSDdx-ov2nRNReKQyey-cwJOoEKUhLmN9z/pub")
