@@ -25,7 +25,7 @@ def main(url):
                         y_coord = int(child.string)
                         if int(str(child)) > max_y_coord:
                             max_y_coord = int(str(child))
-            print(x_coord, charact, y_coord)
+            #print(x_coord, charact, y_coord)
             tupdict[(x_coord,y_coord)] = charact
             #print(tupdict)
             #print(max_x_coord)
@@ -36,7 +36,6 @@ def main(url):
             else:
                 print(" ", end="")
         print()
-    print()
 
 
             
