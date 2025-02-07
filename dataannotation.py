@@ -29,7 +29,7 @@ def main(url):
             tupdict[(x_coord,y_coord)] = charact
             #print(tupdict)
             #print(max_x_coord)
-    for row in range(max_y_coord + 1):
+    for row in range(max_y_coord + 1, -1, -1):
         for col in range(max_x_coord + 1):
             if (col, row) in tupdict:
                 print(tupdict.get((col,row)), end="")
